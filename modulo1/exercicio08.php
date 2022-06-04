@@ -32,6 +32,8 @@
         $filmeFavorito = "Vingadores: Ultimato";
         $bebidaFavorita = "Capuccino"; 
 
+        var_dump($nome);
+
             echo "<td> {$nome} </td>";
             echo "<td> {$idade} </td>";
             echo "<td> {$altura} </td>";
