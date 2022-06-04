@@ -1,17 +1,16 @@
 <?php
 
-// Operadores lógicos
+// Ternário
 
-$numero = 10;
+$idade = 18;
 
-echo $numero == 11;
+echo $idade >= 18 ? "de maior" : "de menor";
 
-// == igualdade (valor)
-// === identicidade (valor e tipo)
-// > maior que
-// < menor que
-// >= maior igual que
-// <= menor igual que
-// ! negação
-// != negar a igualdade
-// !== negar identicidade
+echo "<br>";
+
+$nome = "Zuneide";
+echo isset($nome) ? $nome : "nome não definido";
+
+echo "<br>";
+
+echo $nome ?? "nome não definido"; // A partir do php 7
